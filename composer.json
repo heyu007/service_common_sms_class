@@ -1,0 +1,22 @@
+{
+    "name": "heyu007/service_common_sms_class",
+    "description": "common sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "heyu",
+            "email": "18781085152@163.com.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliyunsms": "src/Aliyunsms",
+            "Sms": "src/Sms"
+        }
+    }
+}
